@@ -56,20 +56,20 @@ An **XGBoost Classifier** (`xgb.XGBClassifier`) is trained on the training data 
 
 #### Performance Metrics
 
-  * **Accuracy**: \~63.8%
-  * **ROC-AUC Score**: \~0.56
+  * **Accuracy**: \~65.6%
+  * **ROC-AUC Score**: \~0.59
 
 **Classification Report:**
 
 ```
               precision    recall  f1-score   support
 
-           0       0.64      0.65      0.64     38118
-           1       0.64      0.63      0.63     37533
+           0       0.66      0.98      0.79     68747
+           1       0.52      0.03      0.06     36101
 
-    accuracy                           0.64     75651
-   macro avg       0.64      0.64      0.64     75651
-weighted avg       0.64      0.64      0.64     75651
+    accuracy                           0.66     104848
+   macro avg       0.59      0.51      0.43     104848
+weighted avg       0.61      0.66      0.54     104848
 ```
 
 #### Feature Importance
